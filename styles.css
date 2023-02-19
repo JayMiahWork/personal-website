@@ -1,0 +1,525 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  #header {
+    background-color: none;
+    color: #fff;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .logo {
+    width: 75px;
+    height: 75px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F6E4CA;
+    text-transform: uppercase;
+  }
+  
+  
+  #nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #nav a {
+    color: #F6E4CA;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration:none;
+    font-weight: bold;
+  }
+  
+  #menu-icon {
+    display: none;
+  }
+
+  .linked-in {
+    display: block;
+    margin: 0 auto;
+    background-color: #404040ae;
+    border: none;
+    color: #F6E4CA;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+    
+  }
+
+  .linked-in:hover{
+      background-color: #9164c43f;
+    }
+  /* Home Section Styles */
+  #home {
+    color: #F6E4CA;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('home_img.JPEG');
+    background-size: cover;
+    background-position: center;
+  }  
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .intro h1 {
+    margin-top: 20rem;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .intro p {
+    font-size: 1.5rem;
+
+  }
+
+  .tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+    text-align: center;
+  }
+  
+  .tile {
+    flex-basis: 31%;
+    margin: 0 10px 20px;
+    padding: 20px;
+    border-radius: .5rem;
+    color: #F6E4CA;
+    background-color: #8686863f;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .job-role {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .dates {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Employment Section Styles */
+  #employment {
+    padding: 80px 0;
+    background-image: url('employment.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  #employment .section-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #F6E4CA;
+  }
+  
+  #employment ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #employment li {
+    margin-bottom: 40px;
+  }
+  
+  #employment .job-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #F6E4CA;
+  }
+  
+  #employment .company {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #F6E4CA;
+  }
+  
+  #employment .job-date {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #F6E4CA;
+  }
+  
+  #employment .job-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #F6E4CA;
+    text-align: left;
+  }
+  
+  #employment .job-description ul {
+    list-style: disc;
+    margin-left: 30px;
+    color: #F6E4CA;
+    text-align: left;
+  }
+  
+  .link-to-company{
+    display: block;
+    margin: 0 auto;
+    background-color: #404040ae;
+    border: none;
+    color: #F6E4CA;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+  }
+
+  .link-to-company:hover{
+  background-color: #9164c43f;
+  outline: none;
+  }
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #F6E4CA;
+  }
+
+  .job-list{
+    text-align: left;
+  }
+
+  .logoJob{
+    height: 2rem;
+    width: 5rem;
+    padding: 0.1rem;
+    display: contents;
+  }
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Education section */
+#education {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Education.JPG');
+  background-size: cover;
+  background-position: center;
+}
+
+#education .edu-header {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+
+/* Resume section */
+#resume {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('resume.JPG');
+  background-size: cover;
+  background-position: center;
+}
+
+.resume-header{
+  margin-top: 4rem;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.resume-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: .5rem;
+}
+
+.resume-images img {
+    width: 31%;
+    margin-bottom: 20px;
+    align-self: center;
+    border-radius: .5rem;
+}
+
+.resume-download {
+  display: block;
+  margin: 0 auto;
+  background-color: #404040ae;
+  border: none;
+  color: #F6E4CA;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.resume-download:hover {
+  display: block;
+  margin: 0 auto;
+  background-color: #9164c43f;
+  border: none;
+  color: #F6E4CA;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+#download{
+  color: #F6E4CA;
+  padding: .25rem;
+  border-radius: .5rem;
+}
+
+/* Contact section */
+#contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('contact-me.JPG');
+  background-size: cover;
+  background-position: center;
+}
+
+
+#contact-form{
+  width: 50%;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 1.15rem;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    color: #F6E4CA;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+}
+
+input, textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #9164c43f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button.send {
+  display: block;
+  margin: 0 auto;
+  background-color: #404040ae;
+  border: none;
+  color: #F6E4CA;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button.send:hover,
+button.send:focus {
+  background-color: #9164c43f;
+  outline: none;
+}
+
+button.send {
+  transition: all 0.2s ease-in-out;
+}
+
+button.send:hover,
+button.send:focus {
+  background-color: #9164c43f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button.send {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:hover {
+    background-color: #9164c43f;
+    text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
+  padding: 10px;
+  color: #F6E4CA;
+  font-size: 6px;
+}
+
+.image-details {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #9164c43f;
+  border-radius: .5rem;
+}
+
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    #nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      right: 0;
+      background-color: rgba(2, 110, 128, 1);
+      padding: 1rem;
+    }
+  
+    #nav a {
+      margin: 0.5rem 0;
+    }
+  
+    #menu-icon {
+      display: block;
+      background-image: url('menu-icon.svg');
+      background-size: contain;
+      height: 2rem;
+      width: 2rem;
+      cursor: pointer;
+    }
+  }
+  
+
+/* Set the width and height of the scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
